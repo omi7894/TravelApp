@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+
 public class SelectActivity extends AppCompatActivity {
 
     private ArrayAdapter adapter1,adapter2;
