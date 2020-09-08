@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="지역1">
+    <string-array name="array_지역">
+        <item>서울</item>>
         <item>경기도</item>
         <item>강원도</item>
-        <item>충청남도</item>
-        <item>충청북도</item>
-        <item>경상북도</item>
-        <item>경상남도</item>
-        <item>전라북도</item>
-        <item>전라남도</item>
+        <item>충청도</item>
+        <item>경상도</item>
+        <item>전라도</item>
         <item>제주도</item>
     </string-array>
+    <string-array name = "array_서울">
+        <item>강남구</item>
+        <item>강북구</item>
+        <item>마포구</item>
+    </string-array>
+    <string-array name = "array_경기도">
+        <item>경기도 수원</item>
+        <item>경기도 인천</item>
+        <item>경기도 일산</item>
+    </string-array>
+    <string-array name = "array_충청도">
+        <item>충청도 a</item>
+        <item>충청도 b</item>
+        <item>충청도 c</item>
+    </string-array>
+    <string-array name = "array_경상도">
+        <item>경상도 a</item>
+        <item>경상도 b</item>
+        <item>경상도 c</item>
+    </string-array>
+    <string-array name = "array_전라도">
+        <item>전라도 a</item>
+        <item>전라도 b</item>
+        <item>전라도 c</item>
+    </string-array>
+    <string-array name = "array_강원도">
+        <item>강원도 a</item>
+        <item>강원도 b</item>
+        <item>강원도 c</item>
+    </string-array>
+    <string-array name = "array_제주도">
+        <item>제주도 a</item>
+        <item>제주도 b</item>
+        <item>제주도 c</item>
+    </string-array>
+
 </resources>
