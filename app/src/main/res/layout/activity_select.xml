@@ -7,7 +7,7 @@
     tools:context=".SelectActivity">
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spinner_지역1"
         android:layout_width="190dp"
         android:layout_height="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -18,7 +18,7 @@
         app:layout_constraintVertical_bias="0.268" />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/spinner_지역2"
         android:layout_width="190dp"
         android:layout_height="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -29,7 +29,7 @@
         app:layout_constraintVertical_bias="0.415" />
 
     <TextView
-        android:id="@+id/지역1"
+        android:id="@+id/textView_지역1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="지역1"
@@ -42,7 +42,7 @@
         app:layout_constraintVertical_bias="0.266" />
 
     <TextView
-        android:id="@+id/지역2"
+        android:id="@+id/textview_지역2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="지역2"
@@ -69,5 +69,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.724" />
+        app:layout_constraintVertical_bias="0.724"
+        android:onClick="OnclickSearch"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
